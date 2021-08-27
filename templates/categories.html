@@ -3,7 +3,11 @@
 
     <h3 class="light-blue-text text-darken-4 center-align">All Tasks</h3>
 
-    
+    <div class="row">
+        <div class="s12 center-align">
+            <a href="{{  url_for('add_categories')}}" class="btn-large darken-2 light-blue text-shadow">Add Category <i class="fas fa-plus-square right"></i></a>
+        </div>
+    </div>
 
     <div class="row">
         {% for category in categories %}
